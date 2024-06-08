@@ -76,3 +76,100 @@
     </footer>
 </body>
 </html>
+
+
+
+
+
+CSS:
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main {
+    padding: 50px 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.about, .skills, .projects, .contact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about p, .contact p {
+    font-size: 18px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #eee;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.projects .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.projects .card {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.projects .card h3 {
+    margin: 0 0 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
