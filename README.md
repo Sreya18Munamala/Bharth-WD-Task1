@@ -1,1 +1,1 @@
-This website has been devveloped by HTML and CSS
+This website has been developed by HTML and CSS
